@@ -6,18 +6,18 @@ lines=fileobj.read().split('\n')
 
 def getTotals(lines):
 
-    index = 0
+    newSum = 0
     totals = []
 
     for values in lines:
 
         if values != '':
-            index = index + int(values)
+            newSum = newSum + int(values)
 
         else:
-            totals.append(index)
+            totals.append(newSum)
         
-            index = 0
+            newSum = 0
 
 
     return totals;
