@@ -1,5 +1,3 @@
-
-
 fileobj=open("day_1.txt")
 lines=fileobj.read().split('\n')
 
